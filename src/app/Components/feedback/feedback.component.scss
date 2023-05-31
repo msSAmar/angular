@@ -1,0 +1,39 @@
+.card-footer{
+    font-size: xx-small;
+    background-color: rgba(128, 128, 128, 0.24);
+}
+.card-body{
+    background-color: rgba(128, 128, 128, 0.24);
+}
+.icon-circle{
+    filter: invert(54%) sepia(55%) saturate(289%) hue-rotate(104deg) brightness(103%)contrast(108%);
+    width: 30px;
+    height: 30px;
+}
+.card-header>div{
+    margin-left: 1100px;
+     border: none;
+    direction: rtl;
+    display: inline-block;}
+.heart{
+   
+    filter: invert(54%) sepia(55%) saturate(289%) hue-rotate(104deg) brightness(103%)contrast(108%);
+    width: 30px;
+    height: 30px; 
+    
+}
+.heart:hover{
+    filter: invert(2%) sepia(10%) saturate(289%) hue-rotate(104deg) brightness(103%)contrast(108%);
+    cursor: none;
+}
+.likeBtn{
+    border: none;
+   // background-color:invert(2%) sepia(10%) saturate(289%) hue-rotate(104deg) brightness(103%)contrast(108%);;
+}
+.tab{
+    font-weight: normal;
+    text-align: right;
+}
+.manylike{
+    color:#05ac05;
+}

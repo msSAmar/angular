@@ -1,0 +1,8 @@
+<!-- <p>feedback works!</p> -->
+
+<div class="card">
+  <div class="card-header d-flex"><object data="../../../assets/icons/circle-user-solid.svg" type="image/svg+xml" class="icon-circle"></object>
+    {{feedback.Name}} <div [ngClass]="{'manylike':feedback.likes>10}" class="p-2 ms-auto tab"><button (click)="likes()" class="likeBtn rounded-circle btn">🤍 </button>  your likes:  {{feedback.likes}}</div></div>
+  <div class="card-body">{{feedback.Content}}</div>
+  <div class="card-footer">{{feedback.Date | date}}</div>
+</div>

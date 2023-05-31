@@ -1,0 +1,22 @@
+.wrapper{
+    display: inline-block;
+     padding-left: 15%;
+     padding-right: 15%;
+     padding-top: 4%;
+     padding-bottom: 4%;
+     width: 80%;
+     background-color: rgba(128, 128, 128, 0.432);
+     text-align: left;
+ }
+ #parent{
+     margin-top: 4%;
+     text-align: center;
+ }
+ .btn{
+     position: relative ;
+ }
+ .icon-circle{
+     filter: invert(54%) sepia(55%) saturate(289%) hue-rotate(104deg) brightness(103%)contrast(108%);
+     width: 30px;
+     height: 30px;
+ }

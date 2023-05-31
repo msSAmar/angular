@@ -1,0 +1,4 @@
+<button class="btn btn-light " routerLink="/add-feedback">add feedback</button>
+<div class="wrapper" *ngFor="let feedback of feedbacks">
+<app-feedback [feedback]="feedback"></app-feedback>
+</div>
